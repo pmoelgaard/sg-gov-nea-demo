@@ -62,7 +62,7 @@ var lib = require('../sg-gov-nea/sg-gov-nea.js');
 
 console.log(API);
 
-var api = new API(new lib.sg.gov.nea.APIConfig({key: '781CF461BB6606AD28A78E343E0E4176B76D27C9922DDDB4'}));
+var api = new API(new lib.sg.gov.nea.APIConfig({key: process.env.API_KEY}));
 
 //var dataSet = api.connect(lib.sg.gov.nea.DataSet.PSI_UPDATE);
 //dataSet.on(lib.sg.gov.nea.APIEvent.DATA, function (data) {
