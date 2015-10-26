@@ -1,0 +1,21 @@
+﻿{
+  datentime: 'FROM 1:00 PM TO 4:00 PM 26-10-2015&lt;br&gt;&lt;font size=1&gt;Updated at 02:00 PM on 26-10-2015',
+  forecasts: [
+    {
+      name: 'ANG MO KIO',
+      forecast: 'Hazy                ',
+      icon: 'HA',
+      zone: 'C',
+      latitude: 1.37,
+      longitude: 103.8494
+    },
+    {
+      name: 'BEDOK',
+      forecast: 'Hazy                ',
+      icon: 'HA',
+      zone: 'E',
+      latitude: 1.3240383,
+      longitude: 103.9200356
+    }
+  ]
+}
